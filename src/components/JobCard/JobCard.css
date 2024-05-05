@@ -1,0 +1,52 @@
+.job-card{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border-radius: 20px;
+    padding: 24px 18px 18px 30px;
+    border:'2px solid red';
+    margin-bottom: 30px;
+    font-family: "Inter";
+}
+
+.company{
+    display: flex; 
+
+
+}
+.company img{
+    height: 30px;
+    width: 30px;
+
+}
+.company div{
+    display: flex;
+    flex-direction: column;
+}
+.company p{
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.company-name{
+    font-size: 14px;
+    font-weight: 600;
+    
+    
+}
+.role{
+    font-size: 14px;
+}
+.location{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(86, 87, 89);
+}
+.salary{
+    font-size: 14px;
+    font-weight: bold;
+    color:rgb(96, 113, 128)
+}
+.about{
+    font-size: 12px;
+}
