@@ -1,0 +1,14 @@
+.sj-container{
+    text-align: center;
+    margin-top: 40px;
+}
+.span-ele{
+    border-bottom: 1px solid #3522e2;
+}
+.filter-fields-card{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    gap:20px;
+    margin-top: 15px;
+}
