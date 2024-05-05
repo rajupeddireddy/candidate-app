@@ -1,0 +1,12 @@
+.nav-ele{
+    height:10vh;
+    flex-grow:1; 
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px ;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+
+}
+.bubble-holder{
+    margin-left: auto;
+}

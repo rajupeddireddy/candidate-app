@@ -9,15 +9,17 @@ export default function AutoComplete(props) {
     <Autocomplete
       disablePortal
       id="combo-box-demo"
-      
+      freeSolo
       options={top100Films}
-      sx={{ width:250, mb:1,
-       }}
-  
-      endAdornment={<KeyboardArrowDownIcon/>}
+      sx={{ width:250, '.MuiAutocomplete-input': {padding: '0.5px 4px 7.5px 5px'}}}
+      
       renderInput={(params) => 
       <TextField {...params} label={label} 
-     
+      InputProps={{
+        ...params.InputProps,
+        endAdornment:<KeyboardArrowDownIcon sx={{color:'#bfbfbf'}}/>
+      }}
+
       />}
      
     />

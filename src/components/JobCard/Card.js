@@ -15,13 +15,13 @@ export default function JobCard(props) {
           <p className='location'>{location}</p>
         </div>
       </div>
-      <p className='salary'>Estimated Salary: {`${salaryCurrencyCode}${minJdSalary} - ${salaryCurrencyCode}${maxJdSalary}`}</p>
-      <p>About Company:</p>
-      <p>About us</p>
+      <p className='salary'>Estimated Salary: {`${minJdSalary ? minJdSalary: 0} ${salaryCurrencyCode} - ${maxJdSalary ? maxJdSalary: 0} ${salaryCurrencyCode}`}</p>
+      <p className='about-company'>About Company:</p>
+      <p className='about-us'>About us</p>
       <p className='about'>{jobDetailsFromCompany}</p>
-      <p>Experience</p>
-      <p>{minExp}years - {maxExp} years</p>
-      <Button variant="contained" sx={{textTransform:'none'}}>Apply</Button>
+      <p className='salary'>Experience: {minExp? minExp:0} years - {maxExp? maxExp:0} years</p>
+      <Button variant="contained" sx={{textTransform:'none', width:'90%', alignSelf:'center', mt:1
+      }}>Apply</Button>
     </div>
   )
 }

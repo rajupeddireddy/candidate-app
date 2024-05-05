@@ -1,6 +1,6 @@
 .sj-container{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .span-ele{
     border-bottom: 1px solid #3522e2;
@@ -9,6 +9,6 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 30px;
-    gap:20px;
+    gap:10px;
     margin-top: 15px;
 }
