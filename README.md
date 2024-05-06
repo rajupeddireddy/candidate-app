@@ -5,7 +5,10 @@
 
 
 # Move to that repo 
-run ### npm install
+## cd /reponame
+### npm install
 
 # To Run the localhost
 ### npm start
+
+#Scroll the widow to see the more jobs
