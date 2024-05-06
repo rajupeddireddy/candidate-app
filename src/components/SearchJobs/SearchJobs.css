@@ -3,12 +3,17 @@
     margin-top: 20px;
 }
 .span-ele{
-    border-bottom: 1px solid #3522e2;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 3px solid  rgb(240, 118, 53);;
 }
 .filter-fields-card{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-left: 30px;
-    gap:10px;
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
 }
