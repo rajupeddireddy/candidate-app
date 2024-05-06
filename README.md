@@ -11,6 +11,6 @@
 ## To Run the localhost:
 ### npm start
 
-## Scroll the widow to see the more jobs
+## Scroll the widow to see more jobs
 
 contact: rajupeddireddy9493@gmail.com
