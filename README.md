@@ -1,5 +1,5 @@
 # Getting Started with Candidate App
-#####Technologies Used: React, Material Ui, Js, CSS, scroll event, React hooks useState, UseRef, UseEffect
+Technologies Used: `React, Material Ui, Js, CSS, scroll event, React hooks useState, UseRef, UseEffect`
 
 ## First Clone the Repo:
 ### git clone https://github.com/rajupeddireddy/candidate-app.git 
